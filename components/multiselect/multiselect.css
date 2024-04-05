@@ -1,0 +1,241 @@
+.vscomp-ele
+{
+  max-width: 306px;
+}
+.vscomp-wrapper
+{
+  height: 48px;
+}
+
+.vscomp-wrapper.has-clear-button .vscomp-toggle-button
+{
+  padding: 12px 12px !important;
+  border: 1px solid var(--color-violet);
+  border-radius: 6px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.vscomp-search-container
+{
+  display: none;
+}
+.vscomp-wrapper.show-value-as-tags .vscomp-arrow
+{
+  height: 24px;
+  width: 24px;
+  top: 10px;
+  right: 15px;
+}
+.vscomp-arrow:hover::before,
+.vscomp-arrow:hover::after
+{
+  background-color: var(--color-blue);
+}
+.vscomp-arrow::after
+{
+  content: '';
+  width: 10px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  height: 2px;
+  background-color: #D8093A;
+  transition: all 0.3s ease-out;
+  background-color: var(--color-light-gray);
+  transform: translate(3px, 50%) rotate(-45deg) !important;
+  border: none;
+  margin: 0;
+}
+.vscomp-arrow::before
+{
+  content: '';
+  width: 10px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 7px;
+  height: 2px;
+  transition: all 0.3s ease-out;
+  background-color: var(--color-light-gray);
+  transform: translate(-3px, 50%) rotate(45deg) !important;
+}
+.vscomp-wrapper.show-value-as-tags .vscomp-clear-button
+{
+  top: 10px;
+}
+.vscomp-clear-button:hover
+{
+  background: none;
+}
+.vscomp-clear-button:hover .vscomp-clear-icon::before,
+ .vscomp-clear-button:hover .vscomp-clear-icon::after
+{
+  background-color: var(--color-blue);
+}
+.vscomp-clear-icon::before,
+.vscomp-clear-icon::after
+{
+  background-color: var(--color-violet);
+}
+.vscomp-clear-icon:hover::before,
+.vscomp-clear-icon:hover::after
+{
+  background: var(--color-blue);
+}
+.pop-comp-wrapper
+{
+  box-shadow: none;
+}
+.vscomp-dropbox
+{
+  border: 1px solid var(--color-violet);
+  border-radius: 6px;
+}
+.vscomp-wrapper.focused .vscomp-toggle-button, .vscomp-wrapper:focus .vscomp-toggle-button
+{
+  box-shadow: initial;
+}
+.vscomp-wrapper .checkbox-icon::after
+{
+  border-radius: 4px;
+  border: 1px solid var(--color-violet);
+}
+.vscomp-wrapper.multiple .vscomp-option.selected .checkbox-icon::after
+{
+  transform: none;
+  border-color: var(--color-violet);
+  border-left-color: none;
+  border-top-color: none;
+  width: 16px;
+}
+.vscomp-wrapper.multiple .vscomp-option.selected .checkbox-icon::before
+{
+  content: '';
+  display: block;
+  position: absolute;
+  top: -7px;
+  width: 24px;
+  height: 24px;
+  left: 0;
+  background: url(../../icons/check.svg);
+}
+.vscomp-wrapper.show-value-as-tags .vscomp-value-tag
+{
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: var(--color-dark);
+  font-weight: 400;
+  font-size: 18px;
+  overflow: initial;
+}
+
+.vscomp-wrapper.show-value-as-tags .vscomp-value
+{
+  flex-wrap: nowrap;
+  column-gap: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  padding: 0 !important;
+  max-width: 250px;
+  font-weight: 300 !important;
+  color: var(--color-light-gray);
+  font-size: 18px;
+  min-height: 22px;
+  font-family: var(--font-family-base);
+  opacity: 1;
+  user-select: none;
+}
+.vscomp-option.selected
+{
+  background-color: initial;
+}
+.vscomp-wrapper.show-value-as-tags.has-value .vscomp-clear-button
+{
+  display: none;
+}
+#modal-scrollbar .simplebar-track.simplebar-vertical
+{
+  height: 150px;
+}
+#modal-scrollbar .simplebar-track.simplebar-horizontal
+{
+  height: 0;
+}
+#modal-scrollbar 
+{
+  height: 170px;
+}
+.pop-comp-wrapper
+{
+  background: initial;
+}
+.statistics-input-wrapper input
+{
+  display: inline-block;
+  white-space: nowrap;
+}
+.vscomp-value-tag {
+  display: inline-block;
+  white-space: nowrap; 
+}
+.vscomp-wrapper.show-value-as-tags .vscomp-value-tag-content
+{
+  width: initial;
+  overflow: initial;
+}
+
+.simplebar-content-wrapper
+{
+  overflow: auto;
+}
+.vscomp-options-container
+{
+  height: 160px;
+  max-height: none;
+}
+/* general */
+.vscomp-options-list
+{
+  height: auto !important ;
+}
+.vscomp-option-text
+{
+  font-size: 18px;
+  font-weight: 400;
+}
+.vscomp-option.focused
+{
+  background: rgba(123, 118, 255, 0.05);
+}
+.simplebar-track.simplebar-vertical 
+{
+  top: 12px;
+  right: 5px;
+  width: 4px;
+  /* height: 135px; */
+  height: 140px;
+  border-radius: 7px;
+  background-color: rgba(137, 137, 137, 0.2);
+}
+#scrollbar-multiselect > .simplebar-track.simplebar-horizontal
+{
+  height: 0;
+}
+.simplebar-scrollbar
+{
+  background: rgba(137, 137, 137, 0.5);
+  border-radius: 7px;
+  width: 4px;
+}
+.simplebar-scrollbar:before, .simplebar-scrollbar.simplebar-visible::before
+{
+  opacity: 1;
+}
+.vscomp-wrapper.show-value-as-tags.has-value .vscomp-arrow
+{
+  display: block;
+}
