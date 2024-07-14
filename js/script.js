@@ -424,7 +424,7 @@ $(document).ready(function()
         let day = currentDate.getDate().toString().padStart(2, '0');
         let month = (currentDate.getMonth() + 1).toString().padStart(2, '0');
         let year = currentDate.getFullYear();
-        let formattedDate = day + '.' + month + '.' + year;
+        let formattedDate = day + '/' + month + '/' + year;
         // Форматирование времени (часы:минуты:секунды)
         let hours = currentDate.getHours();
         let minutes = currentDate.getMinutes();
