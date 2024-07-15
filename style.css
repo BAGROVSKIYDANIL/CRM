@@ -227,8 +227,6 @@
     font-family: var(--font-family-base);
     background-image: url(./images/Statistics-1212.jpg);
     height: auto;
-    position: absolute;
-    bottom: 12px;
  }
 body::-webkit-scrollbar 
 {
@@ -1414,6 +1412,8 @@ input::-webkit-input-placeholder
 .footer
 {
   display: flex;
+  position: absolute;
+  bottom: 12px;
   margin-left: 126px;
   margin-top: 32px;
   justify-content: space-between;
@@ -1731,4 +1731,10 @@ input::-webkit-input-placeholder
 {
     background: var(--color-violet);
     opacity: 0.5;
+}
+
+@media(min-height: 920px) {
+  .content {
+    margin-top: 35px;
+  }
 }
