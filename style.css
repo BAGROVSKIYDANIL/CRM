@@ -223,10 +223,12 @@
 
  body
  {
-    padding: 16px 0 8px 0;
+    padding: 16px 0 12px 0;
     font-family: var(--font-family-base);
     background-image: url(./images/Statistics-1212.jpg);
-    height: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 12px;
  }
 body::-webkit-scrollbar 
 {
