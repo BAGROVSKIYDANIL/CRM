@@ -225,7 +225,8 @@
  {
     padding: 16px 0 8px 0;
     font-family: var(--font-family-base);
-    background-image: url(./images/Statistics.jpg);
+    background-image: url(./images/Statistics-1212.jpg);
+    height: 100%;
  }
 body::-webkit-scrollbar 
 {
