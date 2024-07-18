@@ -237,7 +237,7 @@ body::-webkit-scrollbar
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 1744px;
+    width: calc(100% - 176px);
  }
 
 .header
