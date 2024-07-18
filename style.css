@@ -1760,4 +1760,8 @@ input::-webkit-input-placeholder
   .content {
     margin-top: 35px;
   }
+  .statistics-body
+  {
+    padding: 0px 28px 24px 16px;
+  }
 }
