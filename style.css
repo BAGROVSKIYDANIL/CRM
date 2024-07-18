@@ -1440,7 +1440,7 @@ input::-webkit-input-placeholder
   margin-left: 126px;
   margin-top: 32px;
   justify-content: space-between;
-  width: 1744px;
+  width: calc(100% - 176px)
 }
 .footer-information 
 {
